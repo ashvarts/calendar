@@ -1,0 +1,43 @@
+p {
+    font-family: 'helvetica', sans-serif;
+}
+
+#page {
+    border-top: 1cm solid rgb(172, 172, 172);
+    padding-top: 4mm;
+    padding-bottom: 7mm;
+    height: 19cm;
+    width: 26cm;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 24.5cm;
+    height: 23mm;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+#month_num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24mm;
+    height: 100%;
+    border-right: 1px solid gray;
+    text-align: center;
+
+}
+
+#month_num p {
+    font-size: 45pt;
+    font-weight: bold;
+    color: red
+}
+
+#month_and_year p {
+    font-size: 20pt;
+    color: gray;
+    padding: 3mm;
+}
